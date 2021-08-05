@@ -1,0 +1,24 @@
+{
+  "name": "gitlab-tfsec-parser",
+  "version": "1.0.7",
+  "description": "",
+  "main": "parse.js",
+  "bin": "parse.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandro-lorenzini/gitlab-tfsec-convert.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leandro-lorenzini/gitlab-tfsec-convert/issues"
+  },
+  "homepage": "https://github.com/leandro-lorenzini/gitlab-tfsec-convert#readme",
+  "dependencies": {
+    "commander": "^8.1.0",
+    "minimist": "^1.2.5"
+  }
+}
