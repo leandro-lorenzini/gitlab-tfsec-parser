@@ -1,6 +1,6 @@
 {
   "name": "gitlab-tfsec-parser",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "",
   "main": "parse.js",
   "bin": "parse.js",
