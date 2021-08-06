@@ -60,6 +60,7 @@ exec(`${binary} . --format json`, (error, stdout, stderr) => {
                 "vulnerabilities": vulnerabilities
             };
             fs.writeFileSync(output, JSON.stringify(report, null, " "));
+            exit(vulnerabilities.length ? -1:0)
         } catch (error) {
             console.log(error);
             exit(-1);
